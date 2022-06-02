@@ -1,0 +1,376 @@
+@media(max-width: 420px){
+.header__info-text_mobile{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.header__info{
+    display: none;
+    height: 24px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 7.66% auto;
+	align-content: center;
+}
+.header__info-text{
+    grid-column-start: 2;
+}
+.header__info-text_main{
+    display:none;
+}
+.header__communicate{
+    display:none;
+}
+
+.header__menu{
+    height: 64px;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.header__logo{
+    width: 101.83px;
+    height: 26px;
+    margin-top: 19px;
+    margin-left: 7.66%;
+}
+.header__heart{
+    margin-left: 42px;
+}
+.header__slider-main{
+   display: none;
+}
+
+.header__sliders-description{
+    background: linear-gradient(90deg, #F08B75 0%, #E94D94 51%, #9B4894 100%);
+    backdrop-filter: blur(16px);
+    /* Note: backdrop-filter has minimal browser support */
+    width: 100%;
+    height: 174px;
+    border-radius: 0px;
+}
+.header__sliders-image{
+    width: 100%;
+    height: 295px;
+    background-image: url("image/header/slider.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header__sliders-description>h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* or 129% */
+    margin: 0;
+    text-transform: uppercase;
+    padding-left: 7.81%;
+    padding-top: 19px;
+    color: #FFFFFF;
+}
+.wallpaper__title{
+    margin: 0;
+    margin-left: 23px;
+}
+.wallpaper__title>a{
+    display: none;
+}
+.title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #843C6A;
+}
+.wallpaper__image{
+    display: none;
+}
+.wallpaper__image_mobile{
+    margin: 0 7.66%;
+}
+.title__prices{
+    padding-top: 34px;
+}
+.wallpaper__prices{
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+.wallpappaerDeliveryInfo__cost{
+    width: 100%;
+}
+.wallpaper-img{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.wallpaper-img img{
+    object-fit: cover;
+    width: 100%;
+    height: calc(46px + 60vw);
+}
+.wallpaper__button{
+    background: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #CA3192;
+    border: 1px solid #CD3E99;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    width: 100%;
+    height: 62px;
+}
+.instagram{
+    display: none;
+}
+.instagram_mobile{
+    padding-top: 57px;
+    padding-bottom: 54px;
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: 7.66% 23.34% 62.34% 7.66%;
+    grid-template-rows: 30% 40% 30%;
+    background: #F6F6F6;
+}
+.instagram__image{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0;
+    
+    
+}
+.instagram__image>img{
+    width: 64px;
+    height: 64px;
+    
+    
+}
+
+.instagram__title{
+    margin: 0;
+    margin-left: 4.56%;
+    width: 100%;
+    height: auto;
+    
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 33px;
+
+    color: #843C6A;
+}
+.instagram__text{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    padding-bottom: 31px;
+
+
+    color: #4E3535;
+
+}
+.instagram__button{
+    
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+.instagram__button>button{
+    width: 100%;
+    height: 56px;
+}
+.item__slider>img{
+    object-fit: cover;
+    width: 77.19%;
+    height: calc(54px + 60vw);
+}
+.tile{
+    margin-top: 59px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+}
+.tile__image{
+    grid-column-start: 1;
+    grid-row: 1/2;
+    margin: 0;
+}
+.tile__image>img{
+    width: 100%;
+    object-fit: cover;
+    
+    height: calc(54px + 60vw);
+}
+.tile__secription{
+    grid-column-start: 1;
+    margin-left: 8.13%;
+    grid-row: 2/3;
+}
+.tile__title{
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #843C6A;
+}
+.tile__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+
+    color: #4E3535;
+
+}
+
+.roll{
+    color: #E94D94;
+    border:none;
+    background-color: #fff;
+    padding-left: 8.13%;
+}
+
+.new-wallpaper{
+    margin-top: 49px;
+    grid-template-rows: auto;
+}
+.new-wallpaper__title h1{
+    padding-top: 0px;
+}
+.new-wallpaper__title{
+    margin-bottom: 0px;
+}
+.grid-tile{
+    display: none;
+}
+.grid-tile__image>img{
+    object-fit: cover;
+    height: calc(54px + 60vw);
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-wallpaper__slider .active p{
+    margin-left: 7.81%;
+    }
+.header__sliders .owl-dot span{
+    background-color: #E4E6E3;
+    border: none;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+}
+.header__sliders .owl-dot{
+    position: relative;
+    margin: 5px;
+    top: -40px;
+    right: -177px;
+}
+.header__sliders .owl-dot.active span{
+    background-color: #CA3192;
+    border: 1px solid #FFFFFF;
+}
+}
+
+
+
+
+@media(min-width:421px){
+    .header__info-text_mobile{
+        display: none;
+    }
+    .header__logo_mobile{
+        display: none;
+    }
+    .header__slider-mobile{
+        display: none;
+    }
+    .wallpaper__image_mobile{
+        display: none;
+    }
+    .instagram_mobile{
+        display: none;
+    }
+    .grid-tile_mobile{
+        display: none;
+    }
+    .wallpaper__button, .roll{
+        display: none;
+    }
+}
+@media(max-width:420px){
+    .header__info-text_main{
+        display: none;
+    }
+    .header__communicate{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .header__search{
+        display: none;
+    }
+    .header__menu-button>a:nth-child(1){
+        display: none;
+    }
+    .header__logo_main{
+        display: none;
+    }
+}
