@@ -73,6 +73,9 @@
     padding-top: 19px;
     color: #FFFFFF;
 }
+.wallpaper{
+    margin-top: 50px;
+}
 .wallpaper__title{
     margin: 0;
     margin-left: 23px;
@@ -91,6 +94,9 @@
 }
 .wallpaper__image{
     display: none;
+}
+.wallpaper__image-link{
+    padding-left: 8.13%;
 }
 .wallpaper__image_mobile{
     margin: 0 7.66%;
@@ -220,9 +226,9 @@
     margin: 0;
 }
 .tile__image>img{
-    width: 100%;
-    object-fit: cover;
     
+    object-fit: cover;
+    width: 100%;
     height: calc(54px + 60vw);
 }
 .tile__secription{
@@ -252,19 +258,27 @@
 
 }
 
-.roll{
-    color: #E94D94;
-    border:none;
-    background-color: #fff;
-    padding-left: 8.13%;
-}
 
+.grid-tile_mobile{
+    margin: 0 8.13%;
+    margin-top: 54px;
+}
 .new-wallpaper{
+    width: 100%;
+    display: block;
     margin-top: 49px;
     grid-template-rows: auto;
 }
 .new-wallpaper__title h1{
     padding-top: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+
+    color: #843C6A;
+    margin-left: 8.13%;
 }
 .new-wallpaper__title{
     margin-bottom: 0px;
@@ -276,16 +290,698 @@
     object-fit: cover;
     height: calc(54px + 60vw);
     width: 100%;
+    border-radius: 20px 0px;
 
 }
+.paints{
+    margin-top: 160px;
+    margin-bottom: 0;
+}
+.wallpaper__prices{
+    height: 482px;
+}
+.wallpappaerDeliveryInfo__cost{
+    margin-bottom: 32px;
+}
+.paints{
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+}
+.paints__image{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 100%;
+
+}
+.paints__image>img{
+    width: 100%;
+    object-fit: cover;
+    height: calc(54px + 60vw);
+}
+
+.paints__discription{
+    grid-row: 2/3;
+    margin-left: 8.13%;
+}
+.paints__discription>h1, .paints__discription>p{
+    margin-left:  0;
+}
+.paints__discription>h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    /* identical to box height */
 
 
+    color: #843C6A;
+}
+.paints__color{
+    display: none;
+}
+.paints-button_mobile{
+    margin: 41px  7.8% 35px;
+}
+.paints-button__list{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CA3192;
+    border-radius: 10px;
+    min-height: 60px;
+    color: #CA3192;
+}
+.paints-button__list-active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5.63%;
+}
+.paints-button__active{
+    width: 100%;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    min-height: 60px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #CA3192;
+}
+.paints-button__passive{
+    width: 100%;
+    background: #FFFFFF;
+    min-height: 60px;
+    border: none;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #CA3192;
+}
+.paints-button__list-passive{
+    margin: 0 5.63%;
+}
+.color-slider{
+    display: none;
+}
+.color_mobile-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.color_mobile-conteiner{
+    margin: 0 7.81%;
+    margin-bottom: 35px;
+}
+.color_mobile-image{
+    padding-left: 5%;
+    padding-right: 6.56%;
+}
+.color_mobile-item{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.color_mobile-item1{
+    background: #A9998A;
+    border-radius: 10px 10px 0px 0px;
+}
+.color_mobile-item2{
+    background: #8FB0A9;
+}
+.color_mobile-item3{
+    background: #839099;
+}
+.color_mobile-item4{
+    background: #A29DA1;
+}
+.color_mobile-item5{
+    background: #727C7D;
+}
+.color_mobile-item6{
+    background: #CDDAD1;
+}
+.color_mobile-item7{
+    background: #cecbcb;
+    border-radius: 0px 0px 10px 10px;
+}
+.color_mobile-buttom{
+    margin: 0 7.81%;
+    margin-bottom: 85px;
+}
+.color_mobile-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.wallpaper-dream{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 7.81% 84.38% 7.81%;
+    grid-template-rows:auto auto ;
+    padding-bottom: 50px;
+}
+.wallpaper-dream__video{
+    position: relative;
+    margin: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 35px;
+}
+.button_play{
+    width: 100%;
+    height: 80%;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-items: center;
+    position: relative;
+    left: 3px;
+    bottom: 203px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+}
+.button_play>img{
+    width: 10%;
+}
+.wallpaper-dream__description{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.wallpaper-dream__description>h1{
+    padding-top: 30px;
+}
+.wallpaper-dream__video>video{
+    width: 100%;
+    height: 100%;
+}
+.wallpaper-dream__title, .wallpaper-dream__text{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.wallpaper-dream__title{
+    padding-bottom: 23px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    /* or 146% */
 
 
+    color: #843C6A;
+}
+.wallpaper-dream__text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
 
 
+    color: #4E3535;
+}
+.about-us{
+    display: none;
+}
+.aboutUsForMobile{
+    padding-top: 80px;
+}
+.aboutUsForMobile>h1{
+    margin-left: 7.81%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #562952; 
+}
+.instFaceComment>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(86, 41, 82, 1);
+    margin-top: 0;
+}
+.gridItem1{
+    display: block;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+}
+.gridItem1>img{
+    grid-row-start: 1;
+    width: 77.19%;
+    object-fit: cover;
+    height: calc(54px + 60vw);
+}
+.comment{
+    display: block;
+    width: 77.19%;
+    grid-row-start: 2;
+    height: 100%;
+    z-index: 999;
+    background: none;
+    position: relative;
+    bottom: 31px;
+    left: 25px;
+}
+.instface{
+    width: 32.7%;
+    position: relative;
+    bottom: 11px;
+}
+.instFaceComment>p{
+    margin-top: 21px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(78, 53, 53, 1);
+}
+.instLink{
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+}
+.instLink img{
+    width: 14.38%;
+}
+.instLink>a{
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(86, 41, 82, 1);
+}
+.roll,.roll1,.roll2{
+    color: #E94D94;
+    border: none;
+    background-color: #fff;
+    padding-left: 0px;
+    font-size: 12px;
+    margin-left: 8.13%;
+}
+.special{
+    margin-top: 117px;
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+    background: #F6F6F6;
+}
+.speacial__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.special__image{
+    
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 45px;
+}
+.special__image>img{
+    width: 100%;
+}
+.speacial__description>h1, .speacial__description>p{
+    margin-right: 0;
+}
+.roll3{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+
+    color: #CA3192;
+}
+
+.wallpaper-bedroom{
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+    margin-top: 85px;
+}
+.wallpaper-bedroom__image{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.wallpaper-bedroom__image>img{
+    width: 100%;
+}
+.wallpaper-bedroom__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.wallpaper-bedroom__description>h1, .wallpaper-bedroom__description>p{
+    margin-right: 0;
+    margin-left: 0;
+}
+.roll4{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+
+    color: #CA3192;
+}
+.wallpaper-living_room{
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+}
+.wallpaper-living_room__image{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.wallpaper-living_room__image>img{
+    width: 100%;
+}
+.wallpaper-living_room__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 0;
+}
+.wallpaper-living_room__description>h1, .wallpaper-living_room__description>p{
+    margin-right: 0;
+    margin-left: 0;
+}
+.roll5{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+
+    color: #CA3192;
+}
+
+.wallpaper-kitchen{
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+    margin-top: 58px;
+    background: #FFF;
+}
+.wallpaper-kitchen__image{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.wallpaper-kitchen__image>img{
+    width: 100%;
+}
+.wallaper-kitchen__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 0;
+}
+.wallaper-kitchen__description>h1, .wallaper-kitchen__description>p{
+    margin-right: 0;
+    margin-left: 0;
+}
+.roll6{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+
+    color: #CA3192;
+}
+
+.wallpaper-childrens_room{
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+    margin-top: 58px;
+}
+.wallpaper-childrens_room__image{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.wallpaper-childrens_room__image>img{
+    width: 100%;
+}
+.wallpaper-childrens_room__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 0;
+}
+.wallpaper-childrens_room__description>h1, .wallpaper-childrens_room__description>p{
+    margin-right: 0;
+    margin-left: 0;
+}
+.roll7{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+    color: #CA3192;
+}
+.wallpaper-bathroom{
+    display: grid;
+    grid-template-columns: 8.13% 83.74% 8.13%;
+    grid-template-rows: auto auto;
+    margin-top: 58px;
+    background: #FFF;
+}
+.wallpaper-bathroom__image{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.wallpaper-bathroom__image>img{
+    width: 100%;
+}
+.wallpaper-bathroom__description{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 0;
+}
+.wallpaper-bathroom__description>h1, .wallpaper-bathroom__description>p{
+    margin-right: 0;
+    margin-left: 0;
+}
+.roll8{
+    grid-column: 2/3;
+    border: none;
+    padding-left: 0px;
+    grid-row: 3/4;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 27px;
+    /* identical to box height, or 225% */
+    display: flex;
+    background: none;
+    color: #CA3192;
+}
+.question{
+    display: none;
+}
+.footer{
+    display: none;
+}
+.footer-bottom{
+    display: none;
+}
+.question_mobile{
+    padding-bottom: 73px;
+    padding-top: 40px;
+    background: #F6F6F6;
+    margin-top: 80px;
+}
+.question_mobile__item{
+    width: 100%;
+    min-height: auto;
+    border-top: 1px solid #f1c6e1;
+}
+.question_mobile__item:nth-last-child(1){
+    border-bottom: 1px solid #f1c6e1;
+}
+.question_mobile__item-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question_mobile__item-logo{
+    display: flex;
+    align-items: center;
+}
+.question_mobile__item-logo>img{
+        
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 30px;
+    margin-left: 25px;
+    margin-right: 13px;
+}
+.question_mobile__item-logo>h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #4E3535;
+}
+.question_mobile>h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* or 131% */
 
 
+    color: #843C6A;
+}
+.question_mobile__item-title>img{
+    margin-right: 27px;
+}
+.question_mobile__item>p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-left: 7.8%;
+    padding-right: 7.8%;
+}
+.footer_mobile__title>ul>li{
+    list-style: none;
+}
+.footer_mobile__title{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    color: #CA3192;
+}
+.footer_mobile__title>ul{
+    padding-top: 33px;
+    border-top: 1px solid #f1c6e1;
+    width: 100%;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #f1c6e1;
+    margin-top: 85px;
+}
+.footer_mobile__about>ul>li{
+    list-style: none;
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #343434;
+}
+.li-contacts>ul>li{
+    text-decoration: none;
+}
+.footer_mobile__title>ul{
+    padding-left: 8.13%;
+}
+.footer_mobile__about>ul{
+    padding-left: 8.13%;
+}
+.footer_mobile__contacts>ul{
+    padding-left: 8.13%;
+}
+.footer-bottom_mobile{
+    width: 100%;
+    height: 72px;
+    background: linear-gradient(90deg, #F08B75 0%, #E94D94 51%, #9B4894 100%);
+}
+.footer-bottom_mobile>p{
+    padding-top: 28px;
+    margin-left: 7.8%;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
 
 
 
@@ -320,7 +1016,7 @@
     position: relative;
     margin: 5px;
     top: -40px;
-    right: -177px;
+    right: -40%;
 }
 .header__sliders .owl-dot.active span{
     background-color: #CA3192;
@@ -329,8 +1025,23 @@
 }
 
 
-
-
+@media(min-width:367px){
+    .ax{
+        height: 35%;
+        left: 6px;
+        bottom: 32px;
+    }
+}
+@media(min-width:378px){
+    .ax{
+        height: 55%;
+        left: -32px;
+        bottom: 5px;
+    }
+    .social>a{
+        text-decoration: none;
+    }
+}
 @media(min-width:421px){
     .header__info-text_mobile{
         display: none;
@@ -353,6 +1064,30 @@
     .wallpaper__button, .roll{
         display: none;
     }
+    .paints-button_mobile{
+        display: none;
+    }
+    .color_mobile{
+        display: none;
+    }
+    .color_mobile-buttom{
+        display: none;
+    }
+    .aboutUsForMobile{
+        display: none;
+    }
+    .footer_mobile{
+        display: none;
+    }
+    .roll,.roll1,.roll2,.roll3,.roll4, .roll5, .roll6, .roll7, .roll8, .roll9{
+        display: none;
+    }
+    .question_mobile{
+        display: none;
+    }
+    .footer-bottom_mobile{
+        display: none;
+    }
 }
 @media(max-width:420px){
     .header__info-text_main{
@@ -373,4 +1108,5 @@
     .header__logo_main{
         display: none;
     }
+    
 }
